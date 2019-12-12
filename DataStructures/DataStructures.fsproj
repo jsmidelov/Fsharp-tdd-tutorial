@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Sequences\collect.fs" />
+    <Compile Include="Sequences\windowed.fs" />
+    <Compile Include="Sequences\pairwise.fs" />
+    <Compile Include="Sequences\countBy.fs" />
+    <Compile Include="Sequences\Distinct.fs" />
+    <Compile Include="Sequences\groupBy.fs" />
+    <Compile Include="Sequences\Exists.fs" />
+    <Compile Include="Sequences\findIndex.fs" />
+    <Compile Include="Sequences\Pick.fs" />
+    <Compile Include="Sequences\Find.fs" />
+    <Compile Include="Sequences\WithEnumerate.fs" />
+    <Compile Include="Sequences\Unfold.fs" />
+    <Compile Include="Sequences\Init.fs" />
+    <Compile Include="Array\MultiDimensionalArrays.fs" />
+    <Compile Include="Array\JaggedArrays.fs" />
+    <Compile Include="Array\Zip.fs" />
+    <Compile Include="Array\Fold.fs" />
+    <Compile Include="Array\Reduce.fs" />
+    <Compile Include="Array\Sort.fs" />
+    <Compile Include="Array\Sum.fs" />
+    <Compile Include="Array\Choose.fs" />
+    <Compile Include="Array\IsNoneAndIsSome.fs" />
+    <Compile Include="Array\Filter.fs" />
+    <Compile Include="Array\Iter.fs" />
+    <Compile Include="Array\Mapi.fs" />
+    <Compile Include="Array\Init.fs" />
+    <Compile Include="Array\Map.fs" />
+    <Compile Include="Array\Arrays.fs" />
+  </ItemGroup>
+
+</Project>
