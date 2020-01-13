@@ -1,0 +1,3 @@
+C:\Source\repos\TddWithFsharpTutorial\DataStructures\obj\Debug\netcoreapp3.0\DataStructures.fsprojAssemblyReference.cache
+C:\Source\repos\TddWithFsharpTutorial\DataStructures\obj\Debug\netcoreapp3.0\DataStructures.AssemblyInfoInputs.cache
+C:\Source\repos\TddWithFsharpTutorial\DataStructures\obj\Debug\netcoreapp3.0\DataStructures.AssemblyInfo.fs

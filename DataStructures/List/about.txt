@@ -1,0 +1,24 @@
+﻿Lists represent the backbone of functional programming and in order to be an effective F# programmer you must truly master list processing
+
+Lists are...
+* A list of elements
+* Computed on creation
+* All elements are of the same type
+* Can't assign to elements
+* Implemented as a (singly) linked list
+
+F# List versus C# list (they are not the same, name is the same due to F#'s ML roots)
+A C# list has methods to add and remove elements to the array - i.e. it's mutable - while F# lists are immutable
+If you want to access the C# list in F#, it's called a ResizeArray
+
+Elements can be accessed the same way as with an Array - i.e. myCollection.[x],
+	but because a List is implemented as a linked list, the execution would reach x step-by-step until reached,
+	where an Array knows the memory address ahead of time
+Speaking in "O notation", arrays are O(1) while lists are O(n)!
+
+The list module has functions as in Arrays and Sequences
+
+Lists can be combined with the @ character. This creates a link from the last element in the former list, to the first element in the latter list
+
+You can prepend an object to a list with the 'cons' operator :: which creates a link from that object to the first element of the list
+May sound counter-intuitive, but is much cheaper than merging lists with @, as it does not need to traverse the whole list first

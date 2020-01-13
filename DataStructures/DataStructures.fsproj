@@ -6,19 +6,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Sequences\collect.fs" />
-    <Compile Include="Sequences\windowed.fs" />
-    <Compile Include="Sequences\pairwise.fs" />
-    <Compile Include="Sequences\countBy.fs" />
-    <Compile Include="Sequences\Distinct.fs" />
-    <Compile Include="Sequences\groupBy.fs" />
-    <Compile Include="Sequences\Exists.fs" />
-    <Compile Include="Sequences\findIndex.fs" />
-    <Compile Include="Sequences\Pick.fs" />
-    <Compile Include="Sequences\Find.fs" />
-    <Compile Include="Sequences\WithEnumerate.fs" />
-    <Compile Include="Sequences\Unfold.fs" />
-    <Compile Include="Sequences\Init.fs" />
+    <Compile Include="List\patternMatching.fs" />
+    <Compile Include="List\init.fs" />
+    <Content Include="List\about.txt" />
+    <Compile Include="Sequence\collect.fs" />
+    <Compile Include="Sequence\windowed.fs" />
+    <Compile Include="Sequence\pairwise.fs" />
+    <Compile Include="Sequence\countBy.fs" />
+    <Compile Include="Sequence\Distinct.fs" />
+    <Compile Include="Sequence\groupBy.fs" />
+    <Compile Include="Sequence\Exists.fs" />
+    <Compile Include="Sequence\findIndex.fs" />
+    <Compile Include="Sequence\Pick.fs" />
+    <Compile Include="Sequence\Find.fs" />
+    <Compile Include="Sequence\WithEnumerate.fs" />
+    <Compile Include="Sequence\Unfold.fs" />
+    <Compile Include="Sequence\Init.fs" />
     <Compile Include="Array\MultiDimensionalArrays.fs" />
     <Compile Include="Array\JaggedArrays.fs" />
     <Compile Include="Array\Zip.fs" />
